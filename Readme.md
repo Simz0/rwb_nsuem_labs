@@ -20,9 +20,7 @@ go run ./main.go
 ```
 
 
-## Видос
+## Видоc
 
-<video width="720" height="480" controls>
-  <source src="vidos-dlia-labsa_F3ZeiftY.mp4" type="video/mp4">
-  Ваш браузер не поддерживает тег video.
-</video>
+Не получилось у меня нормально вставить тэг для видео :с
+Поэтому просто посмотрите файл vidos-dlia-labsa_F3ZeiftY.mp4 пожалуйста >///<
