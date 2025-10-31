@@ -20,6 +20,16 @@ WORKDIR /root/
 
 COPY --from=builder /app/main .
 
+ENV DB_HOST=localhost
+ENV DB_USER=postgres
+ENV DB_PASSWORD=postgres
+ENV DB_NAME=golang
+ENV DB_PORT=5432
+ENV DB_SSLMODE=disable
+ENV PORT=8000
+ENV NATS_URL=localhost
+ENV NATS_CHANNEL=golang
+
 EXPOSE 8080
 
 CMD ["./main"]
